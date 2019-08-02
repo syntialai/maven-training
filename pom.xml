@@ -7,7 +7,11 @@
     <groupId>henry.jonathan</groupId>
     <artifactId>maven-training</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>module-1</module>
+    </modules>
 
     <name>maven-training</name>
 
